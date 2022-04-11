@@ -10,3 +10,13 @@ namespace MyNewApp
         }
     }
 }
+
+namespace MyNewApp.Business
+{
+    // Classes here
+}
+
+namespace MyNewApp.Data
+{
+    // Classes here
+}
