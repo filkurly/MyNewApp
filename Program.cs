@@ -7,14 +7,16 @@ namespace MyNewApp
         static void Main(string[] args)
         {
             string value = "Microsoft Learn";
-            string reversedValue = Reverse(value);
+            string reversedValue = Utility.Reverse(value);
             Console.WriteLine($"Secret message: {reversedValue}");
         }
-
-        static string Reverse(string message)
+    }
+    class Utility
+    {
+        public static string Reverse(string message);
         {
             char[] letters = message.ToCharArray();
-            Array.Reverse(letters);
+            Array.Reverse(lettes);
             return new string(letters);
         }
     }
