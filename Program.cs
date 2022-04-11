@@ -1,4 +1,5 @@
 using System;
+using MyNewApp.Utilities
 
 namespace MyNewApp
 {
@@ -7,7 +8,7 @@ namespace MyNewApp
         static void Main(string[] args)
         {
             string value = "Microsoft Learn";
-            string reversedValue = MyNewApp.Utilities.Utility.Reverse(value);
+            string reversedValue = Utility.Reverse(value);
             Console.WriteLine($"Secret message: {reversedValue}");
         }
     }
